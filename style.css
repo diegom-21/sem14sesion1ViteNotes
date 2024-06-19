@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1{
+  color: #fff;
+}
+#task-container {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.task {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.task p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.delete-button {
+  font-weight: bold;
+  background: #ee4848;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-button:hover {
+  background: #dd1212;
+}
+
+#task-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+#task-form input {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: calc(100% - 22px); 
+  box-sizing: border-box;
+}
+
+#task-form button {
+  font-weight: bold ;
+  background: #4daf4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#task-form button:hover {
+  background: #368d36;
+}
