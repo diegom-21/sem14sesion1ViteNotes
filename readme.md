@@ -5,8 +5,8 @@ Esta aplicacion permite leer, agregar y eliminar tareas usando una interfaz de u
 ## Desarrollo
 
 1. **HTML:**
-   - Contenedor (<div id="task-container"></div>) para mostrar las tareas.
-   - Formulario (<form id="task-form">) para agregar nuevas tareas.
+   - Contenedor "task-container" para mostrar las tareas.
+   - Formulario "task-form" para agregar nuevas tareas.
 
 2. **CSS:**
    - Estilos para mejorar la apariencia visual de la aplicación.
